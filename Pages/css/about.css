@@ -44,6 +44,7 @@ body{
     margin: 0;
     color: #fff;
     font-size: 36px;
+    letter-spacing: 1.26px;
 }
 
 .contentPage{
@@ -53,6 +54,74 @@ body{
 }
 .contentPage .sendMessage p{
     margin: 0;
+
+}
+.customerSay{
+    background-image: url(../../images/testi-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 100px 0;
+    color: #fff;
+}
+.customerSay:before{
+    background-color: rgba(0, 0, 0, 0.8);
+    content: "";
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: inline-block;
+}
+.customerSay .testi-box{
+    display: inline-block;
+    background-color: #f4f4f4;
+    padding: 34px 55px;
+    position: relative;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.customerSay .testi-box span{
+    background-color: #ff9c00;
+    border-radius: 100%;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: -25px;
+    top: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.customerSay .testi-box h3{
+    color: #222;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.98px;
+    text-transform: uppercase;
+}
+.customerSay .testi-box h3:after{
+    content: "|";
+    margin: 0 8px;
+ }
+
+.customerSay .testi-box h5{
+     color: #777;
+     display: inline-block;
+     font-size: 14px;
+     letter-spacing: 0.98px;
+     text-transform: capitalize;
+}
+
+.customerSay .testi-box p{
+    color: #777;
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 0.64px;
+    line-height: 28px;
+    margin-bottom: 0;
 }
 .ourTeam{
     margin-top: 30px;

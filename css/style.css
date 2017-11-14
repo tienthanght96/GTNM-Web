@@ -333,6 +333,8 @@ a.carousel-control-prev span, a.carousel-control-next span {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    font-family:  'Roboto', Arial, Helvetica, sans-serif;
+    color:  #000;
 }
 
 /*End ------------------Menu */
