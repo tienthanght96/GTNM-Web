@@ -183,4 +183,41 @@ body{
         min-height: 165px;
     }
 }
+@media (max-width: 576px) {
+    .wpPageTitle .container {
+        margin: 0;
+    }
+
+    .pageTitle {
+        align-items: center;
+        display: flex;
+        border-right: 25px solid #c29c27;
+        vertical-align: middle;
+        padding: 10px 20px 10px 20px;
+        background: #f5c328;
+        z-index: 1;
+        position: absolute;
+        top: 45px;
+        left: 30px;
+        -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
+    }
+
+    .pageTitle h2.titleText {
+        margin: 0;
+        color: #fff;
+        font-size: 30px;
+        letter-spacing: 1.26px;
+    }
+
+    .pageTitle span.iconTitle {
+        display: flex;
+        align-items: center;
+        font-size: 26px;
+        color: #fff;
+        margin-right: 10px;
+    }
+}
+
 

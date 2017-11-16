@@ -318,10 +318,14 @@ a.carousel-control-prev span, a.carousel-control-next span {
     display: flex;
     flex: 1;
     background-color: #ffffff;
-    padding: 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 20px 0;
+    /*padding: 20px;*/
+    /*flex-wrap: wrap;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
 }
 
 .menu .right a.itemMenuOffer {
@@ -336,6 +340,167 @@ a.carousel-control-prev span, a.carousel-control-next span {
     font-family:  'Roboto', Arial, Helvetica, sans-serif;
     color:  #000;
 }
+
+
+.col-lg-4.col-md-6.grid-item{
+    margin-bottom: 20px;
+}
+.topProduct{
+    /*padding: 0 15px;*/
+    position: relative;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.itemsImage img{
+    opacity: 1;
+    transition: 0.4s;
+}
+a.linkItem{
+    display: block;
+    line-height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    bottom: 0px;
+    right: 0;
+
+}
+
+.topProduct:hover  .itemsImage img{
+    opacity: 0.6;
+}
+a.linkItem:hover .viewIcon,  a.linkItem:hover .viewbg  {
+    opacity: 1;
+    visibility: visible;
+
+}
+img.portfolio-inner-frame {
+    width: 280px;
+}
+.viewIcon {
+    position: absolute;
+    max-width: 365px;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 25, 25, 0.35);;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+.viewIcon  .btnAddCart i {
+    color: #fff;
+    font-weight: 400;
+    padding: 13px 20px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: #f5c328;
+    border: none !important;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.viewbg {
+    position: absolute;
+    max-width: 365px;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 25, 25, 0.35);;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    display: block;
+    top: 0;
+}
+.itemsImage {
+    display: block;
+    line-height: 0;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+}
+/*.itemsImage {*/
+    /*display: block;*/
+    /*line-height: 0;*/
+    /*position: absolute;*/
+    /*top: 23px;*/
+    /*left: 23px;*/
+    /*right: 23px;*/
+    /*bottom: 23px;*/
+/*}*/
+img.imgDrink{
+    max-width: 65%;
+    margin-top: 3px;
+}
+.productDescription{
+    display: flex;
+    flex-direction: row;
+}
+.itemsDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 15px;
+}
+
+a.itemsTitle{
+    text-decoration: none !important;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.itemsContent p{
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #444;
+}
+.itemsDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.detailCaption {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 10px 0 5px;
+
+}
+.detailValue {
+    color: #f5c328;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: bold;
+}
+
 
 /*End ------------------Menu */
 
@@ -712,22 +877,22 @@ footer .contentFooter .socials ul.list-unstyled li a{
     font-weight: bold;
     flex: 1;
 }
-/*.menu .right .row {*/
-    /*top: auto !important;*/
-    /*left: auto !important;*/
-    /*position: relative !important;*/
-/*}*/
-.menu .right .row {
-    height: auto !important;
-    position: relative !important;
-    justify-content: center;
-    top: auto !important;
-    left: auto !important;
-    align-items: center;
-}
+
 
 /*End------------------Footer*/
 
+
+@media (max-width: 1350px) {
+    .itemsImage {
+    display: block;
+    line-height: 0;
+    position: absolute;
+    top: 23px;
+    left: 23px;
+    right: 23px;
+    bottom: 23px;
+    }
+}
 
 @media (max-width: 992px) {
 
