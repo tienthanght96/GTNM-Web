@@ -246,7 +246,7 @@ a.carousel-control-prev span, a.carousel-control-next span {
 .menu {
     display: flex;
     flex-direction: row;
-
+    background: #ffffff;
 }
 
 .left {
@@ -321,6 +321,7 @@ a.carousel-control-prev span, a.carousel-control-next span {
     flex-wrap: wrap;
     position: relative;
     padding: 20px 0;
+    /*height: inherit !important;*/
     /*padding: 20px;*/
     /*flex-wrap: wrap;*/
     /*flex-direction: column;*/
@@ -504,6 +505,25 @@ a.itemsTitle{
 
 /*End ------------------Menu */
 
+
+/*Css slogan*/
+.slogan{
+    background-image: url(../images/delivery-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 50px 0;
+}
+.slogan:before{
+    background-color: rgba(0, 0, 0, 0.8);
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 /*Start------------------ComboPackage*/
 .comboPackage {
     padding: 200px 0;
