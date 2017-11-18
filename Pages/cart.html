@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Liên hệ</title>
+    <title>Giỏ hàng</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/cart.css">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap-reboot.css">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap-grid.css">
@@ -87,62 +87,154 @@
 <div class="wpPageTitle">
     <div class="container containerTitle">
         <div class="pageTitle">
-            <span class="iconTitle"><i class="fa fa-phone"></i></span>
-            <h2 class="titleText">LIÊN HỆ</h2>
+            <span class="iconTitle"><i class="fa fa-shopping-cart"></i></span>
+            <h2 class="titleText">GIỎ HÀNG</h2>
         </div>
     </div>
 </div>
-<div class="map">
-    <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62696.89899295523!2d106.73925454613445!3d10.84523627245352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527587ba04377%3A0x4ea5c6ca79f1ff59!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgVGjDtG5nIHRpbg!5e0!3m2!1svi!2s!4v1510242234746"
-                width="100%" height="300" frameborder="0" style="border:0; flex: 1; display: flex"
-                allowfullscreen></iframe>
-    </div>
-</div>
+
 <div class="contentPage">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 titleContent text-center">
-                <h2 class="headerPage">LIÊN HỆ</h2>
-                <img src="../images/line-yellow.png" class="img-fluid" style="margin: 10px 0" alt="">
-            </div>
-            <div class="col-lg-12 contactInfo">
-                <ul class="list-unstyled">
-                    <li>
-                        <i class="fa fa-map-o"></i>
-                        <p>Khu phố 6, Linh Trung , Thủ Đức, TPHCM</p>
-                    </li>
-                    <li>
-                        <i class="fa fa-phone"></i>
-                        <p>+841234567</p>
-                        <p>+841234567</p>
-                    </li>
-                    <li>
-                        <i class="fa fa-envelope-o"></i>
-                        <p>kidsteamttt@gmail.com</p>
-                    </li>
-                    <li>
-                        <i class="fa fa-clock-o"></i>
-                        <p>T2 - T7: 10:00am - 11:00pm</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-12  text-center sendMessage">
-                <h2 class="headerPage">GỬI Ý KIẾN CHO CHÚNG TÔI</h2>
-                <img src="../images/line-yellow.png" class="img-fluid" style="margin: 10px 0" alt="">
-            </div>
-            <div class="col-lg-12 formFeedBack">
-                <div class="form-group text-center">
-                    <input type="text" class="form-control inputControl" placeholder="Tên" aria-describedby="helpId">
-                    <input type="email" class="form-control inputControl" placeholder="Email" aria-describedby="helpId">
-                    <input type="tel" class="form-control inputControl" placeholder="SĐT" aria-describedby="helpId">
-                    <input type="tel" class="form-control inputControl" placeholder="Tiêu đề" aria-describedby="helpId">
-                    <textarea class="form-control" placeholder="Nội dung" rows="5"></textarea>
-                    <button type="submit" value="submit" class="btn btn-outline-secondary submitButton">Gửi</button>
-                </div>
+            <div class="col-lg-12 col-sm-12 col-md-12 text-center">
+                <h2 class="headerPage text-uppercase">
+                    Giỏ hàng của bạn
+                </h2>
+                <img src="../images/line-yellow.png"  class="img-fluid" style="margin: 10px 0" alt="">
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-md-12 ">
+                <table class="cartTable cart" cellspacing="0">
+                    <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th class="productThumbnail">&nbsp;</th>
+                        <th>Sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th>Tổng tiền</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+
+                        <td class="productRemove">
+                            <a href="" class="remove">
+                                <i class="fa fa-close"></i>
+                            </a>
+                        </td>
+
+                        <td class="productThumbnail">
+                            <a href="">
+                                <img width="90" height="90"
+                                     src="http://ninzio.com/lacuisine/wp-content/uploads/inner18-90x90.jpg"
+                                     sizes="(max-width: 90px) 100vw, 90px">
+                            </a>
+                        </td>
+
+                        <td class="productName" data-title="Product">
+                            <a href="">Caipiroska</a>
+                        </td>
+
+                        <td class="productPrice" data-title="Price">
+                           <span class="amount">
+                               90.000Đ
+                           </span>
+                        </td>
+
+                        <td class="productQuantity">
+                            <div class="quantity">
+                                <input type="number" step="1" min="0" max="87" value="1" title="Qty"
+                                       class="input-text text"
+                                       size="4" pattern="[0-9]*" inputmode="numeric">
+                            </div>
+                        </td>
+
+                        <td class="productSubtotal">
+                           <span>
+                               90.000Đ
+                           </span>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td class="productRemove">
+                            <a href="" class="remove">
+                                <i class="fa fa-close"></i>
+                            </a>
+                        </td>
+
+                        <td class="productThumbnail">
+                            <a href="">
+                                <img width="90" height="90"
+                                     src="http://ninzio.com/lacuisine/wp-content/uploads/inner18-90x90.jpg"
+                                     sizes="(max-width: 90px) 100vw, 90px">
+                            </a>
+                        </td>
+
+                        <td class="productName" data-title="Product">
+                            <a href="">Caipiroska</a>
+                        </td>
+
+                        <td class="productPrice" data-title="Price">
+                           <span class="amount">
+                               90.000Đ
+                           </span>
+                        </td>
+
+                        <td class="productQuantity">
+                            <div class="quantity">
+                                <input type="number" step="1" min="0" max="87" value="1" title="Qty"
+                                       class="input-text text"
+                                       size="4" pattern="[0-9]*" inputmode="numeric">
+                            </div>
+                        </td>
+
+                        <td class="productSubtotal">
+                           <span>
+                               90.000Đ
+                           </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" class="actions">
+                            <div class="coupon">
+                                <input type="text" class="input-text" placeholder="Nhập mã giảm giá" value="">
+                                <input type="submit" class="button" value="Cập nhật giỏ hàng">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" class="actions">
+                            <div class="totalPrice">
+                                <span class="labelTotal">Tổng tiền:</span>
+                                <span class="numberTotal">90.000Đ</span>
+                            </div>
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <form class="row">
+            <div class="form-group col-md-6">
+                <input type="text" required="" placeholder="Tên *" class="form-control">
+            </div>
+            <div class="form-group col-md-6">
+                <input type="text" required="" placeholder="Số điện thoại *" class="form-control">
+            </div>
+            <div class="form-group col-md-12">
+                <textarea placeholder="Ghi chú đơn hàng" rows="6" class="form-control"></textarea>
+            </div>
+            <div class="form-group col-md-12">
+                <input type="submit" value="Hoàn tất " name="Submit">
+            </div>
+
+        </form>
     </div>
+
 </div>
 
 <footer>
@@ -214,7 +306,7 @@
         <div class="row bottomFooter">
             <div class="col-lg-12 text-center bottomFooter">
                 <p class="text-uppercase font-weight-bold">THS. NGuyễn Công Hoan</p>
-                <p >Kids Team 2017 <i class="fa fa-copyright"></i> - Giao Tiếp người máy</p>
+                <p>Kids Team 2017 <i class="fa fa-copyright"></i> - Giao Tiếp người máy</p>
             </div>
         </div>
     </div>

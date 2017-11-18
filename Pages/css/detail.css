@@ -146,8 +146,9 @@ input[type="number"] {
     font-size: 14px;
     z-index: 2;
     margin-bottom: 20px;
+    outline: 0;
 }
-button.cartButton{
+a.cartButton{
     font-weight: bold;
     border: none;
     padding: 13px 20px;
@@ -158,11 +159,16 @@ button.cartButton{
     color: #fff;
     background-color: #f5c328;
     cursor: pointer;
+    /**/
+    position: relative;
+    display: inline-block;
+    text-decoration: none !important;
 }
+
 .cartButton:before {
     content: "";
     width: 100%;
-    height: 90%;
+    height: 100%;
     position: absolute;
     display: block;
     border: 1px solid #f5c328;
@@ -179,6 +185,7 @@ button.cartButton{
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
+
 form.cart .cartButton:hover:before {
     -webkit-transform: translate(-5px,-5px);
     -moz-transform: translate(-5px,-5px);
@@ -403,10 +410,9 @@ input[type="submit"]:hover {
     color: #5d5d5d;
     font-family: Roboto,serif;
     margin-bottom: 0;
-    display: inline-block;
     position: relative;
     z-index: 15;
-    border-bottom: 4px double #aaaaaa;
+    /*border-bottom: 4px double #aaaaaa;*/
 }
 
 @media (max-width: 992px) {
@@ -469,12 +475,14 @@ input[type="submit"]:hover {
         -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
+        width: 250px;
+        text-align: center;
     }
 
     .pageTitle h2.titleText {
         margin: 0;
         color: #fff;
-        font-size: 30px;
+        font-size: 24px;
         letter-spacing: 1.26px;
     }
 
@@ -484,6 +492,17 @@ input[type="submit"]:hover {
         font-size: 26px;
         color: #fff;
         margin-right: 10px;
+    }
+    .cart{
+        flex-direction: column;
+    }
+    .rating {
+        display: flex;
+        flex-direction: column;
+    }
+    .ratingFrom:after {
+        content: "";
+
     }
 }
 
