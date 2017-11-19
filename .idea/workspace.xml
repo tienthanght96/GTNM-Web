@@ -14,6 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+<<<<<<< HEAD
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/about.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,6 +75,14 @@
                 <element signature="n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <folding />
+>>>>>>> 0e446d7b1422cc6864d0840b30951c502a7dbebd
             </state>
           </provider>
         </entry>
@@ -83,8 +92,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -138,6 +147,9 @@
       <replace>&lt;p&gt;90.000 VNĐ&lt;/p&gt;</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -152,6 +164,7 @@
         <option value="$PROJECT_DIR$/Pages/css/blog.css" />
         <option value="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/Pages/category.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Pages/css/category.css" />
         <option value="$PROJECT_DIR$/Pages/pizza.html" />
         <option value="$PROJECT_DIR$/Pages/drink.html" />
@@ -170,6 +183,17 @@
         <option value="$PROJECT_DIR$/Pages/css/about.css" />
         <option value="$PROJECT_DIR$/Pages/blog.html" />
         <option value="$PROJECT_DIR$/Pages/detailBlog.html" />
+=======
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/Pages/css/category.css" />
+        <option value="$PROJECT_DIR$/Pages/contact.html" />
+        <option value="$PROJECT_DIR$/Pages/blog.html" />
+        <option value="$PROJECT_DIR$/Pages/about.html" />
+        <option value="$PROJECT_DIR$/Pages/detailBlog.html" />
+        <option value="$PROJECT_DIR$/Pages/drink.html" />
+        <option value="$PROJECT_DIR$/Pages/pizza.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+>>>>>>> 0e446d7b1422cc6864d0840b30951c502a7dbebd
       </list>
     </option>
   </component>
@@ -182,12 +206,21 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="512" />
     <option name="y" value="-2" />
     <option name="width" value="1032" />
     <option name="height" value="907" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="103" />
+    <option name="y" value="23" />
+    <option name="width" value="1399" />
+    <option name="height" value="777" />
+>>>>>>> 0e446d7b1422cc6864d0840b30951c502a7dbebd
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -210,6 +243,22 @@
               <item name="Project1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project1" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project1" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project1" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -228,6 +277,13 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
+<<<<<<< HEAD
+=======
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Webstom\GTNM\Project1\js" />
+      <recent name="C:\Users\TOAN-MEN\WebstormProjects\Project_1\images" />
+    </key>
+>>>>>>> 0e446d7b1422cc6864d0840b30951c502a7dbebd
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Webstom\GTNM\Project1\images" />
       <recent name="E:\Webstom\GTNM\Project1\Pages" />
@@ -253,14 +309,20 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JavaScript Debug.cart.html">
     <configuration name="cart.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project1/Pages/cart.html" />
     <configuration name="detailCategory.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project1/Pages/detailCategory.html" />
+=======
+  <component name="RunManager" selected="JavaScript Debug.drink.html">
+    <configuration name="detailBlog.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project1/Pages/detailBlog.html" />
+>>>>>>> 0e446d7b1422cc6864d0840b30951c502a7dbebd
     <configuration name="drink.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project1/Pages/drink.html" />
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project1/index.html" />
     <configuration name="menu.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project1/Pages/menu.html" />
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+<<<<<<< HEAD
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.drink.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.detailCategory.html" />
       <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.menu.html" />
@@ -273,6 +335,20 @@
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.menu.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.drink.html" />
+=======
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.detailBlog.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.login.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.pizza.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.drink.html" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.drink.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.pizza.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.login.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.detailBlog.html" />
+>>>>>>> 0e446d7b1422cc6864d0840b30951c502a7dbebd
       </list>
     </recent_temporary>
   </component>
@@ -307,25 +383,40 @@
       <workItem from="1510814839789" duration="5151000" />
       <workItem from="1510822606754" duration="2310000" />
       <workItem from="1510831111700" duration="1158000" />
+<<<<<<< HEAD
       <workItem from="1510838758678" duration="11754000" />
       <workItem from="1510898948628" duration="7729000" />
       <workItem from="1510926478108" duration="13625000" />
       <workItem from="1510968546407" duration="3961000" />
       <workItem from="1510991749416" duration="16443000" />
       <workItem from="1511014334547" duration="10554000" />
+=======
+      <workItem from="1510838758678" duration="11155000" />
+      <workItem from="1510927935613" duration="675000" />
+      <workItem from="1510966984242" duration="8000" />
+>>>>>>> 0e446d7b1422cc6864d0840b30951c502a7dbebd
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="200875000" />
+=======
+    <option name="totallyTimeSpent" value="148647000" />
+>>>>>>> 0e446d7b1422cc6864d0840b30951c502a7dbebd
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
+    <frame x="103" y="23" width="1399" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21914192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17869908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 0e446d7b1422cc6864d0840b30951c502a7dbebd
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -351,6 +442,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="513" column="25" lean-forward="false" selection-start-line="510" selection-start-column="13" selection-end-line="513" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/home_pizza_slider_3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7140">
+          <caret line="357" column="23" lean-forward="true" selection-start-line="357" selection-start-column="23" selection-end-line="357" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3960">
+          <caret line="495" column="18" lean-forward="false" selection-start-line="495" selection-start-column="18" selection-end-line="495" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8100">
@@ -471,13 +588,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../09-15/09/manstory/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
-          <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../09-15/09/manstory/index.html" />
     <entry file="file://$PROJECT_DIR$/js/mixitup.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
@@ -485,6 +596,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/Downloads/mixitup-3/mixitup-3/demos/filtering-by-url/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -512,22 +624,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/css/blog.css">
+=======
+    <entry file="file://$USER_HOME$/Downloads/mixitup-3/mixitup-3/demos/filtering-by-url/index.html" />
+    <entry file="file://$PROJECT_DIR$/../../09-15/09/manstory/js/app.js" />
+    <entry file="file://$PROJECT_DIR$/images/blogSidebar.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pages/css/login.css" />
+    <entry file="file://$PROJECT_DIR$/Pages/css/about.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="416" column="1" lean-forward="false" selection-start-line="416" selection-start-column="1" selection-end-line="416" selection-end-column="1" />
+        <state relative-caret-position="559">
+          <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="232" selection-end-column="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/css/blog.css" />
+    <entry file="file://$PROJECT_DIR$/Pages/css/contact.css">
+>>>>>>> 0e446d7b1422cc6864d0840b30951c502a7dbebd
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="222" column="0" lean-forward="true" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/css/detailBlog.css" />
     <entry file="file://$PROJECT_DIR$/images/drink.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/drinkPage.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/drinkPage.jpg" />
     <entry file="file://$PROJECT_DIR$/bootstrap/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-21963">
@@ -535,6 +659,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Pages/login.html" />
     <entry file="file://$PROJECT_DIR$/Pages/css/category.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -895,6 +1020,40 @@
             <element signature="n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/Pages/css/category.css" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1545">
+          <caret line="322" column="19" lean-forward="false" selection-start-line="322" selection-start-column="19" selection-end-line="322" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="64" column="73" lean-forward="false" selection-start-line="64" selection-start-column="73" selection-end-line="64" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/blog.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1521">
+          <caret line="77" column="29" lean-forward="true" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/detailBlog.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/drink.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/login.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/pizza.html" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
+>>>>>>> 0e446d7b1422cc6864d0840b30951c502a7dbebd
         </state>
       </provider>
     </entry>
