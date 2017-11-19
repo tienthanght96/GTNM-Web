@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.wpPageTitle{
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    height: 80px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.container.containerTitle{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.pageTitle{
+    align-items: center;
+    display: flex;
+    border-right: 25px solid #c29c27;
+    vertical-align: middle;
+    padding: 20px 40px 20px 30px;
+    background: #f5c328;
+    z-index: 1;
+    position: absolute;
+    top: 45px;
+    left: 30px;
+    -webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
+}
+.pageTitle span.iconTitle{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+    margin-right: 10px;
+}
+.pageTitle h2.titleText{
+    margin: 0;
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 1.26px;
+}
+h2.headerPage{
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 32px;
+    color: #5d5d5d;
+    font-family: Roboto,serif;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+.contentPage{
+    background-color: #ffffff;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    padding: 50px 0;
+}
+.contentPage .sendMessage p{
+    margin: 0;
+
+}
+.customerSay{
+    background-image: url(../../images/testi-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 100px 0;
+    color: #fff;
+    margin-top: 20px;
+}
+.sendMessage{
+    margin-top: 20px;
+}
+.customerSay:before{
+    background-color: rgba(0, 0, 0, 0.8);
+    content: "";
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: inline-block;
+}
+.customerSay .testi-box{
+    display: inline-block;
+    background-color: #f4f4f4;
+    padding: 34px 55px;
+    position: relative;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.customerSay .testi-box span{
+    background-color: #ff9c00;
+    border-radius: 100%;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: -25px;
+    top: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.customerSay .testi-box h3{
+    color: #222;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.98px;
+    text-transform: uppercase;
+}
+.customerSay .testi-box h3:after{
+    content: "|";
+    margin: 0 8px;
+ }
+
+.customerSay .testi-box h5{
+     color: #777;
+     display: inline-block;
+     font-size: 14px;
+     letter-spacing: 0.98px;
+     text-transform: capitalize;
+}
+
+.customerSay .testi-box p{
+    color: #777;
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 0.64px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+.ourTeam{
+    margin-top: 30px;
+}
+.col-lg-4.onePerson{
+    margin-bottom: 20px;
+}
+
+.onePerson .infoPerson{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.702);
+    display: inline-block;
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    opacity: 0;
+    width: 92%;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #ffffff;
+}
+.onePerson:hover .infoPerson{
+    opacity: 1;
+    bottom: 0;
+}
+.onePerson i.fa.fa-envelope-o{
+    background-color: #ff9c00;
+    border-radius: 100%;
+    color: #222;
+    display: inline-block;
+    font-size: 18px;
+    height: 54px;
+    width: 54px;
+    line-height: 54px;
+    margin-top: -30px;
+    text-align: center;
+}
+.onePerson h5{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.26px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.onePerson p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.26px;
+    text-transform: uppercase;
+}
+.onePerson ul.list-unstyled li a{
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+.onePerson ul.list-unstyled li a:hover{
+     color: #f5c328;
+ }
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 767px) {
+
+}
+@media (max-width: 576px) {
+    .wpPageTitle .container {
+        margin: 0;
+    }
+
+    .pageTitle {
+        align-items: center;
+        display: flex;
+        border-right: 25px solid #c29c27;
+        vertical-align: middle;
+        padding: 10px 20px 10px 20px;
+        background: #f5c328;
+        z-index: 1;
+        position: absolute;
+        top: 45px;
+        left: 30px;
+        -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
+        width: 250px;
+        text-align: center;
+    }
+
+    .pageTitle h2.titleText {
+        margin: 0;
+        color: #fff;
+        font-size: 24px;
+        letter-spacing: 1.26px;
+    }
+
+    .pageTitle span.iconTitle {
+        display: flex;
+        align-items: center;
+        font-size: 26px;
+        color: #fff;
+        margin-right: 10px;
+    }
+    .customerSay .carousel-item{
+        justify-content: center;
+        align-items: center;
+    }
+    .customerSay .testi-box span {
+        background-color: #ff9c00;
+        border-radius: 100%;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        left: -25px;
+        margin-top: -25px;
+        top: 50%;
+        line-height: 50px;
+        text-align: center;
+    }
+}
+
