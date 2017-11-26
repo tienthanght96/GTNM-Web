@@ -156,9 +156,9 @@ li.nav-item.active a.nav-link.menuItem {
     max-width: 100%;
     max-height: 70%;
     position: absolute;
-    left: 50px;
-    top: 0;
-
+    left: 100px;
+    top: 50px;
+    visibility: hidden;
 }
 
 .banner #carouselId .carousel-inner .carousel-item img.img-fluid.imageSlider {
@@ -166,7 +166,8 @@ li.nav-item.active a.nav-link.menuItem {
     max-height: 50%;
     position: absolute;
     right: 50px;
-    top: 0;
+    top: 150px;
+    visibility: hidden;
 }
 
 .banner #carouselId .carousel-control-prev, .banner #carouselId .carousel-control-next {
@@ -189,10 +190,10 @@ li.nav-item.active a.nav-link.menuItem {
     color: #fff;
     text-align: center;
     margin: 0 20px;
-    font-size: 20px;
+    font-size: 40px;
 }
 
-.carousel-caption.titleSilder1 {
+.carousel-caption.titleSilder1{
     position: absolute;
     top: 0;
     left: 0;
@@ -202,7 +203,8 @@ li.nav-item.active a.nav-link.menuItem {
     align-items: flex-end;
     justify-content: center;
     flex-direction: column;
-    padding-right: 25%;
+    margin-left: 25%;
+    left: 0px;
 }
 
 .carousel-caption.titleSilder2 {
@@ -215,7 +217,8 @@ li.nav-item.active a.nav-link.menuItem {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding-left: 25%;
+    margin-left: 10%;
+    margin-bottom: 5%;
 }
 
 a.carousel-control-prev span, a.carousel-control-next span {
@@ -411,13 +414,18 @@ img.portfolio-inner-frame {
     -moz-border-radius: 100px;
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
-    text-transform: uppercase;
-    font-size: 12px;
+    text-transform: none;
+    font-size: 14px;
     background: #f5c328;
     border: none !important;
     -webkit-transition: all 0.2s ease-in-out 0s;
     -o-transition: all 0.2s ease-in-out 0s;
-    transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s, background-color .5s ease-out;
+    font-style: normal;
+}
+
+.viewIcon .btnAddCart i:hover{
+    background-color: rgb(216, 162, 0);
 }
 
 .viewbg {
@@ -530,6 +538,11 @@ a.itemsTitle {
     margin-bottom: 20px;
     font-family: 'Roboto', sans-serif;
 }
+
+.comboPackage .col-lg-5 label, .comboPackage .col-lg-5 h1, .comboPackage .col-lg-5 p, .comboPackage .col-lg-5 button{
+    visibility: visible;
+}
+
 .comboPackage .col-lg-5.text-center h2{
     text-transform: uppercase;
     font-size: 24px;
@@ -564,9 +577,9 @@ a.itemsTitle {
     background-color: #f5c328;
     border-color: #f5c328;
 }
-.comboPackage .col-lg-5.text-center p{
-    font-style: italic;
-    font-size: 16px;
+.comboPackage .col-lg-5.text-center  p{
+    font-style: normal;
+    font-size: 18px;
     line-height: 16px;
     margin: 10px 0;
 }
@@ -631,7 +644,7 @@ a.itemsTitle {
 }
 .popularProduct .headerPage h2{
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 48px;
     line-height: 32px;
     color: #5d5d5d;
     font-family: Roboto,serif;
@@ -639,10 +652,14 @@ a.itemsTitle {
     font-weight: bold;
     letter-spacing: 1.2px;
 }
+.popularProduct .headerPage label{
+    visibility: visible;
+}
+
 .popularProduct .headerPage p{
-    font-style: italic;
+    font-style: normal;
     font-size: 18px;
-    color: #5d5d5d;
+    color: black;
     line-height: 32px;
     margin-top: 20px;
 }
@@ -657,11 +674,13 @@ a.itemsTitle {
 /*Start ------------------Blog*/
 .blog {
     padding: 50px 0;
+    padding-top: 20px;
     color: #ffffff;
     background: url("../images/pizza-slider.jpg") no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
+
 }
 
 .blog .headerPage{
@@ -671,7 +690,7 @@ a.itemsTitle {
 }
 .blog  .headerPage h2{
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 48px;
     line-height: 32px;
     color: #ffffff;
     font-family: Roboto,serif;
@@ -679,8 +698,11 @@ a.itemsTitle {
     font-weight: bold;
     letter-spacing: 1.2px;
 }
+.blog  .headerPage label{
+    visibility: visible;
+}
 .blog .headerPage p{
-    font-style: italic;
+    font-style: normal;
     font-size: 18px;
     color: #ffffff;
     line-height: 32px;
@@ -1438,7 +1460,6 @@ footer .bottomFooter p {
         left: 50%;
         top: 0;
         margin-left: -75px;
-
     }
 
     .carousel-caption.titleSilder1 {
@@ -1631,4 +1652,95 @@ footer .bottomFooter p {
         padding: 15px 20px;
     }
 
+}
+.title-special{
+    z-index: 6;
+    white-space: nowrap;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 400;
+    color: rgb(241, 182, 1);
+    font-family: Arizonia;
+    visibility: inherit;
+    border-width: 0px;
+    opacity: 1;
+    width: 100%;
+    visibility: hidden;
+}
+
+.title-normal{
+    z-index: 7;
+    white-space: nowrap;
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    text-transform: uppercase;
+    visibility: inherit;
+    transition: none;
+    text-align: inherit;
+    border-width: 0px;
+    opacity: 1;
+    visibility: hidden;
+}
+
+.button-addcart{
+    z-index: 9;
+    white-space: nowrap;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    background-color: rgb(241, 182, 1);
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    outline: medium none currentcolor;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-width: 0px;
+    margin: 0px;
+    padding: 12px 35px;
+    letter-spacing: 0px;
+    opacity: 1;
+    border-style: solid;
+    transition: background-color .5s ease-out;
+    margin-right: 15px;
+    visibility: hidden;
+}
+
+.button-addcart:hover{
+    background-color: rgb(216, 162, 0);
+}
+
+.button-infor{
+    z-index: 10;
+    white-space: nowrap;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0px;
+    padding: 10px 33px;
+    opacity: 1;
+    background-color: transparent;
+    transition: background-color .5s ease-out, border-color .5s ease-out;
+    visibility: hidden;
+}
+
+.button-infor:hover{
+    background-color: rgb(216, 162, 0);
+    border-color: rgb(216, 162, 0);
+}
+
+.carousel-indicators li{
+    border-radius: 100%;
 }
